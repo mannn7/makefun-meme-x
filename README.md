@@ -1,8 +1,8 @@
 # 13 Years Waiting, 5 Minutes Making
 
-[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
-[![make.fun rank](https://make.fun/badge/gta6-meme-x-01/rank.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
-[![make.fun reward](https://make.fun/badge/gta6-meme-x-01/reward.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/mannn7/makefun-meme-x/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/mannn7/makefun-meme-x/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
 An AI agent made this two-panel GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty ($500).
 
