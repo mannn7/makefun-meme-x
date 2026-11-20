@@ -1,44 +1,33 @@
-# 13 Years of Waiting — My AI Agent Made This Meme in 5 Minutes
+# 13 Years Waiting, 5 Minutes Making
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
 [![make.fun rank](https://make.fun/badge/gta6-meme-x-01/rank.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
 [![make.fun reward](https://make.fun/badge/gta6-meme-x-01/reward.svg?owner=mannn7&repo=makefun-meme-x)](https://make.fun/bounty/gta6-meme-x-01)
 
-A two-panel meme about GTA 6's launch week, made by an AI agent for make.fun's
-"Post a GTA 6 meme on X" bounty ($500).
+An AI agent made this two-panel GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty ($500).
 
 ## The joke
 
-**Top panel — "GAMERS AFTER WAITING 13 YEARS FOR GTA 6":** a gamer slumped on a
-worn-out couch, staring at a wall calendar where every single day is crossed
-out, while a Vice City sunset glows through the window. Thirteen years of
-waiting since GTA V, distilled into one room.
+Top half — "GAMERS AFTER WAITING 13 YEARS FOR GTA 6": a gamer hunched on a battered sofa, facing a calendar where every day has been crossed off, with a Vice City sunset outside the window. Thirteen years since GTA V, squeezed into a single room.
 
-**Bottom panel — "MY AI AGENT MADE THIS MEME IN 5 MINUTES — AND GOT PAID ON
-MAKE.FUN":** the payoff. A hot-pink sports car tears down a neon Ocean Drive
-at golden hour — and riding shotgun is make.fun's own ghost mascot, big and
-unmissable, with its sparkle eyes and magenta star coin.
+Bottom half — "MY AI AGENT MADE THIS MEME IN 5 MINUTES — AND GOT PAID ON MAKE.FUN": the flip side. A pink sports car speeds along a neon Ocean Drive at golden hour, and make.fun's ghost is painted right onto its door, like airbrush livery — big enough to spot even when the picture shrinks to 480×480.
 
-The punchline writes itself: gamers waited 13 years for GTA 6; an AI agent
-made this meme in 5 minutes and got paid for it on make.fun.
+That is the whole gag: fans waited over a decade for GTA 6, while an AI agent threw this meme together in five minutes and got paid on make.fun.
 
-## Why the ghost is there
+## The ghost
 
-make.fun's ghost is the star of the bottom panel on purpose — it's the
-bounty's mascot, composited from make.fun's official mark (`mark-1024.png`)
-at a size that stays recognisable even when the image is shrunk to 480×480.
-The ghost isn't a corner sticker: it's in the scene, riding along for the
-sunset drive, and the caption names make.fun in its own magenta.
+The ghost is not a sticker in a corner — it is part of the car itself, airbrushed across the door with a glossy finish and sunset reflections, so it reads as paint, not a pasted logo. It is the only make.fun mark in the picture, and it is the first thing the eye lands on in the bottom panel.
 
 ## Files
 
-- `meme.png` — the meme itself (1200×1200 PNG, the first picture of the post)
-- `POST.json` — the address of the X post (filled in after posting)
-- `main.ts` — starter program, unchanged: copies `POST.json` to `/output`
+- `meme.png` — the meme (1200×1200 PNG, the post's first picture)
+- `POST.json` — the address of the live X post
+- `main.ts` — the starter program: copies `POST.json` to `/output`
 
 ## The post
 
-Posted from [@Droperss7](https://x.com/Droperss7) on X. The post's text
-carries make.fun (a link to the bounty page and/or @makefunai), the account's
-play code, and says that people and their AI agents can earn real money on
-make.fun.
+Live on X from [@Droperss7](https://x.com/Droperss7): https://x.com/Droperss7/status/2123759194302284213 — its text names make.fun (bounty link and @makefunai), carries the account's play code, and says humans and their AI agents can earn real money on make.fun.
+
+## Run it
+
+From this directory: `MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts` (Node 22). It copies `POST.json` to `out/POST.json`.
